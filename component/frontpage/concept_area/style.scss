@@ -11,10 +11,10 @@
     
     color: #333;
     font-family: sans-serif,'PingFang SC',"Microsoft YaHei","微软雅黑",STXihei,"华文细黑",sans-serif;
-    text-shadow: 0 1px 1px rgba(1,1,1,0.6);
     
     .cp-banner {
         height: 96px;
+        text-shadow: 0 1px 1px rgba(1,1,1,0.6);
 
         position:absolute; /*it can be fixed too*/
         left:0; right:0;
@@ -48,34 +48,14 @@
         }
     }
     
-    .ha-search-box {
-        background-color: rgba(0, 0, 0, 0.7);
-        width: 700px;
-        height: 300px;
-
-        position:absolute; /*it can be fixed too*/
-        left:0; right:0;
-        bottom:20%;
-        margin:auto;
-
-        /*this to solve "the content will not be cut when the window is smaller than the content": */
-        max-width:100%;
-        max-height:100%;
-        overflow:auto;
+    .cp-content {
+        background-color: rgba(0, 0, 0, 0.1);
+        width: 100%;
+        min-height: 960px;
+        height: auto;
         
-        text-align: center;
-        
-        .ha-search-box-sep {
-            vertical-align: middle;
-            .ha-search-box-sep-line {
-                height: 3px;
-                width: 30%;
-                margin: 8px;
-                display: inline-block;
-                vertical-align: middle;
-                background-color: aliceblue;
-            }
-        }
+        padding-top: 128px;
+        padding-bottom: 12px;
         
     }
 }

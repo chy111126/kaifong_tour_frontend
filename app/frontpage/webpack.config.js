@@ -3,7 +3,7 @@ var appName = 'frontpage';
 
 // Webpack denepdencies
 var webpack = require('webpack');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
+var CopyWebpackPlugin = require('copy-webpack-plugin');
 
 var path = require('path');
 var APP_DIR = path.resolve(__dirname);
@@ -36,9 +36,9 @@ module.exports = {
         extensions: ['.js', '.css']
     },
     plugins: [
-        new HtmlWebpackPlugin({  // Also generate a test.html 
-          filename: 'index.html',
-          template: 'index.html'
-        })
+        new CopyWebpackPlugin([
+            {from: 'style.css'},
+            {from: 'index.html'},
+        ])
     ]
 }

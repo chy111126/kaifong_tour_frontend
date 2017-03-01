@@ -1,12 +1,15 @@
 .rt-container {
-    height: 100%;
+    min-height: 100%;
+    height: auto;
     width: 100%;
     
     /* Centered background/Hero Image */
+    /* 
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
-    background-image:   url('./images/bg_1.png');    
+    background-image:   url('./images/bg_1.png');
+    */
     position: relative;
     
     color: #333;
@@ -17,7 +20,7 @@
 
         position:absolute; /*it can be fixed too*/
         left:0; right:0;
-        top:3%;
+        top: 16px;
         margin:auto;
 
         /*this to solve "the content will not be cut when the window is smaller than the content": */
@@ -49,18 +52,15 @@
     
     .rt-content {
         background-color: rgba(0, 0, 0, 0.1);
-        width: 80%;
-        height: 80%;
-
-        position:absolute; /*it can be fixed too*/
-        left:0; right:0;
-        bottom:0;
-        margin: auto;
-        margin-bottom: 16px;
+        width: 100%;
+        min-height: 960px;
+        height: auto;
+        
+        padding-top: 128px;
+        padding-bottom: 12px;
 
         /*this to solve "the content will not be cut when the window is smaller than the content": */
         max-width:100%;
-        max-height:100%;
         overflow:auto;
         
         text-align: center;
@@ -70,8 +70,9 @@
 }
 
 
-@media only screen and (max-device-width: 1024px)
-.rt-container {
-    height: auto;
-    width: 100%;
+@media only screen and (max-device-width: 1024px) {
+    .rt-container {
+        height: auto;
+        width: 100%;
+    }
 }

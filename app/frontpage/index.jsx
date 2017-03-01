@@ -17,8 +17,6 @@ var hero_area = render(<HeroArea />, document.getElementById('heroArea'));
 var recent_tours_area = render(<RecentToursArea />, document.getElementById('recentToursArea'));
 var concept_area = render(<ConceptArea />, document.getElementById('conceptArea'));
 
-require('./style.css');
-
 
 
 

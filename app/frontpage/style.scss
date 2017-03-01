@@ -11,12 +11,14 @@ body {
     } 
     
     .hero-area {
+        min-height: 960px;
         height: 960px;
         background-color: #fff;
     }    
     
     .recent-tours-area {
-        height: 960px;
+        min-height: 960px;
+        height: auto;
         background-color: #fff;
     }    
     
