@@ -1,0 +1,91 @@
+$navbar-full-size: 172px;
+$navbar-shrink-size: 96px;
+$logo-full-size: $navbar-full-size;
+$logo-shrink-size: $navbar-shrink-size;
+
+@mixin transition($transition...) {
+    -moz-transition:    $transition;
+    -o-transition:      $transition;
+    -webkit-transition: $transition;
+    transition:         $transition;
+}
+@mixin transition-property($property...) {
+    -moz-transition-property:    $property;
+    -o-transition-property:      $property;
+    -webkit-transition-property: $property;
+    transition-property:         $property;
+}
+@mixin transition-duration($duration...) {
+    -moz-transition-property:    $duration;
+    -o-transition-property:      $duration;
+    -webkit-transition-property: $duration;
+    transition-property:         $duration;
+}
+@mixin transition-timing-function($timing...) {
+    -moz-transition-timing-function:    $timing;
+    -o-transition-timing-function:      $timing;
+    -webkit-transition-timing-function: $timing;
+    transition-timing-function:         $timing;
+}
+@mixin transition-delay($delay...) {
+    -moz-transition-delay:    $delay;
+    -o-transition-delay:      $delay;
+    -webkit-transition-delay: $delay;
+    transition-delay:         $delay;
+}
+
+.nb-container {
+    width: 100%;
+    
+    position: fixed;
+    z-index: 100;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+    border-bottom: 1px solid #bbb;
+    -webkit-perspective: 1000;
+    
+    text-align: center;
+    
+    .nb-nav-center {
+        display: inline-block;
+        .nb-logo {
+            /* Centered background/Hero Image */
+            height: $logo-full-size;
+            width: $logo-full-size;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+            background-image: url('./images/Kaifong_Tour_ozipfy.png');
+        }
+    }
+}
+
+.nb-container-full {    
+    height: $navbar-full-size;
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    @include transition(height .4s);
+    
+    .nb-nav-center {
+        .nb-logo {
+            height: $navbar-full-size;
+            width: $navbar-full-size;
+            @include transition(height .4s, width .4s, forwards);
+        }
+    }
+}
+
+.nb-container-shrink {    
+    height: $navbar-shrink-size;
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    @include transition(height .4s);
+    
+    .nb-nav-center {
+        .nb-logo {
+            height: $navbar-shrink-size;
+            width: $navbar-shrink-size;
+            @include transition(height .4s, width .4s, forwards);
+        }
+    }
+}

@@ -1,0 +1,167 @@
+/* line 33, C:/Users/TCC/kf_beta/component/tour_card/style.scss */
+.tc-container {
+  height: 320px;
+  width: 260px;
+  background-color: #fefefe;
+  display: inline-block;
+  margin: 12px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 1px 20px rgba(0, 0, 0, 0.3);
+  color: #fefefe;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8); }
+  /* line 45, C:/Users/TCC/kf_beta/component/tour_card/style.scss */
+  .tc-container .tc-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden; }
+    /* line 53, C:/Users/TCC/kf_beta/component/tour_card/style.scss */
+    .tc-container .tc-content .tc-hero-img {
+      height: 100%;
+      width: 100%;
+      /* Centered background/Hero Image */
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover;
+      background-image: url("./images/placeholder.png");
+      transition: transform .4s; }
+  /* line 66, C:/Users/TCC/kf_beta/component/tour_card/style.scss */
+  .tc-container .tc-footer {
+    bottom: 0;
+    height: 42px;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    -moz-transition: background-color 0.4s, height 0.4s;
+    -o-transition: background-color 0.4s, height 0.4s;
+    -webkit-transition: background-color 0.4s, height 0.4s;
+    transition: background-color 0.4s, height 0.4s;
+    -webkit-transform: translate3d(0, 0, 0); }
+    /* line 74, C:/Users/TCC/kf_beta/component/tour_card/style.scss */
+    .tc-container .tc-footer .tc-tour-title {
+      margin: 8px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-align: center;
+      font-size: 18px;
+      -moz-transition: margin 0.4s;
+      -o-transition: margin 0.4s;
+      -webkit-transition: margin 0.4s;
+      transition: margin 0.4s;
+      -webkit-transform: translate3d(0, 0, 0); }
+    /* line 83, C:/Users/TCC/kf_beta/component/tour_card/style.scss */
+    .tc-container .tc-footer .tc-tour-type {
+      width: 50%;
+      display: inline-block;
+      font-size: 0px;
+      -moz-transition: font-size 0.4s;
+      -o-transition: font-size 0.4s;
+      -webkit-transition: font-size 0.4s;
+      transition: font-size 0.4s;
+      -webkit-transform: translate3d(0, 0, 0); }
+    /* line 89, C:/Users/TCC/kf_beta/component/tour_card/style.scss */
+    .tc-container .tc-footer .tc-tour-district {
+      width: 50%;
+      display: inline-block;
+      font-size: 0px;
+      -moz-transition: font-size 0.4s;
+      -o-transition: font-size 0.4s;
+      -webkit-transition: font-size 0.4s;
+      transition: font-size 0.4s;
+      -webkit-transform: translate3d(0, 0, 0); }
+    /* line 96, C:/Users/TCC/kf_beta/component/tour_card/style.scss */
+    .tc-container .tc-footer .tc-tour-date {
+      position: absolute;
+      bottom: 0;
+      margin-bottom: 16px;
+      width: 100%;
+      font-size: 0px;
+      -moz-transition: font-size 0.4s;
+      -o-transition: font-size 0.4s;
+      -webkit-transition: font-size 0.4s;
+      transition: font-size 0.4s;
+      -webkit-transform: translate3d(0, 0, 0); }
+
+/* line 110, C:/Users/TCC/kf_beta/component/tour_card/style.scss */
+.tc-container:hover .tc-content .tc-hero-img {
+  transform: scale(1.5); }
+
+/* line 115, C:/Users/TCC/kf_beta/component/tour_card/style.scss */
+.tc-container:hover .tc-footer {
+  bottom: 0;
+  height: 50%;
+  position: absolute;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  -moz-transition: background-color 0.4s, height 0.4s forwards;
+  -o-transition: background-color 0.4s, height 0.4s forwards;
+  -webkit-transition: background-color 0.4s, height 0.4s forwards;
+  transition: background-color 0.4s, height 0.4s forwards;
+  -webkit-transform: translate3d(0, 0, 0); }
+  /* line 123, C:/Users/TCC/kf_beta/component/tour_card/style.scss */
+  .tc-container:hover .tc-footer .tc-tour-title {
+    white-space: normal;
+    margin: 16px;
+    -moz-transition: margin 0.4s forwards;
+    -o-transition: margin 0.4s forwards;
+    -webkit-transition: margin 0.4s forwards;
+    transition: margin 0.4s forwards;
+    -webkit-transform: translate3d(0, 0, 0); }
+  /* line 129, C:/Users/TCC/kf_beta/component/tour_card/style.scss */
+  .tc-container:hover .tc-footer .tc-tour-type {
+    font-size: 16px;
+    -moz-transition: font-size 0.4s forwards;
+    -o-transition: font-size 0.4s forwards;
+    -webkit-transition: font-size 0.4s forwards;
+    transition: font-size 0.4s forwards;
+    -webkit-transform: translate3d(0, 0, 0); }
+  /* line 133, C:/Users/TCC/kf_beta/component/tour_card/style.scss */
+  .tc-container:hover .tc-footer .tc-tour-district {
+    font-size: 16px;
+    -moz-transition: font-size 0.4s forwards;
+    -o-transition: font-size 0.4s forwards;
+    -webkit-transition: font-size 0.4s forwards;
+    transition: font-size 0.4s forwards;
+    -webkit-transform: translate3d(0, 0, 0); }
+  /* line 138, C:/Users/TCC/kf_beta/component/tour_card/style.scss */
+  .tc-container:hover .tc-footer .tc-tour-date {
+    font-size: 16px;
+    -moz-transition: font-size 0.4s forwards;
+    -o-transition: font-size 0.4s forwards;
+    -webkit-transition: font-size 0.4s forwards;
+    transition: font-size 0.4s forwards;
+    -webkit-transform: translate3d(0, 0, 0); }
+
+@media only screen and (max-device-width: 1024px) {
+  /* line 146, C:/Users/TCC/kf_beta/component/tour_card/style.scss */
+  .tc-container {
+    height: 240px;
+    width: 180px; }
+    /* line 150, C:/Users/TCC/kf_beta/component/tour_card/style.scss */
+    .tc-container .tc-content .tc-hero-img {
+      transform: scale(1.5); }
+    /* line 155, C:/Users/TCC/kf_beta/component/tour_card/style.scss */
+    .tc-container .tc-footer {
+      bottom: 0;
+      height: 50%;
+      position: absolute;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.75); }
+      /* line 162, C:/Users/TCC/kf_beta/component/tour_card/style.scss */
+      .tc-container .tc-footer .tc-tour-title {
+        white-space: normal;
+        margin: 16px; }
+      /* line 167, C:/Users/TCC/kf_beta/component/tour_card/style.scss */
+      .tc-container .tc-footer .tc-tour-type {
+        font-size: 16px; }
+      /* line 170, C:/Users/TCC/kf_beta/component/tour_card/style.scss */
+      .tc-container .tc-footer .tc-tour-district {
+        font-size: 16px; }
+      /* line 174, C:/Users/TCC/kf_beta/component/tour_card/style.scss */
+      .tc-container .tc-footer .tc-tour-date {
+        font-size: 16px; } }
+
+/*# sourceMappingURL=style.css.map */

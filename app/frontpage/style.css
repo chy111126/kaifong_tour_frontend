@@ -1,0 +1,23 @@
+/* line 3, C:/Users/TCC/kf_beta/app/frontpage/style.scss */
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%; }
+  /* line 8, C:/Users/TCC/kf_beta/app/frontpage/style.scss */
+  body .navbar {
+    height: 56px;
+    width: 100%; }
+  /* line 13, C:/Users/TCC/kf_beta/app/frontpage/style.scss */
+  body .hero-area {
+    height: 960px;
+    background-color: #fff; }
+  /* line 18, C:/Users/TCC/kf_beta/app/frontpage/style.scss */
+  body .recent-tours-area {
+    height: 960px;
+    background-color: #fff; }
+  /* line 23, C:/Users/TCC/kf_beta/app/frontpage/style.scss */
+  body .concept-area {
+    height: 960px;
+    background-color: #fff; }
+
+/*# sourceMappingURL=style.css.map */

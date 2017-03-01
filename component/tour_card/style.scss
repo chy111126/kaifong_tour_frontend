@@ -1,0 +1,179 @@
+@mixin transition($transition...) {
+    -moz-transition:    $transition;
+    -o-transition:      $transition;
+    -webkit-transition: $transition;
+    transition:         $transition;
+    -webkit-transform: translate3d(0,0,0);
+}
+@mixin transition-property($property...) {
+    -moz-transition-property:    $property;
+    -o-transition-property:      $property;
+    -webkit-transition-property: $property;
+    transition-property:         $property;
+}
+@mixin transition-duration($duration...) {
+    -moz-transition-property:    $duration;
+    -o-transition-property:      $duration;
+    -webkit-transition-property: $duration;
+    transition-property:         $duration;
+}
+@mixin transition-timing-function($timing...) {
+    -moz-transition-timing-function:    $timing;
+    -o-transition-timing-function:      $timing;
+    -webkit-transition-timing-function: $timing;
+    transition-timing-function:         $timing;
+}
+@mixin transition-delay($delay...) {
+    -moz-transition-delay:    $delay;
+    -o-transition-delay:      $delay;
+    -webkit-transition-delay: $delay;
+    transition-delay:         $delay;
+}
+
+.tc-container {
+    height: 320px;
+    width: 260px;
+    background-color: #fefefe;
+    display: inline-block;
+    margin: 12px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 1px 20px rgba(0,0,0,0.3);
+    color: #fefefe;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+    
+    .tc-content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        
+        .tc-hero-img {
+            height: 100%;
+            width: 100%;
+            
+            /* Centered background/Hero Image */
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+            background-image:   url('./images/placeholder.png');   
+            transition: transform .4s;
+        }
+    }
+    
+    .tc-footer {
+        bottom: 0;
+        height: 42px;
+        position: absolute;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        @include transition(background-color .4s, height .4s);
+
+        .tc-tour-title {
+            margin: 8px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-align: center;
+            font-size: 18px;
+            @include transition(margin .4s);
+        }
+        
+        .tc-tour-type {
+            width: 50%;
+            display: inline-block;
+            font-size: 0px;
+            @include transition(font-size .4s);
+        }
+        .tc-tour-district {
+            width: 50%;
+            display: inline-block;
+            font-size: 0px;
+            @include transition(font-size .4s);
+        }
+        
+        .tc-tour-date {
+            position: absolute;
+            bottom: 0;
+            margin-bottom: 16px;
+            width: 100%;
+            font-size: 0px;
+            @include transition(font-size .4s);
+        }
+    }
+}
+
+.tc-container:hover {    
+    .tc-content {
+        
+        .tc-hero-img {
+            transform:scale(1.5)
+        }
+    }
+    
+    .tc-footer {
+        bottom: 0;
+        height: 50%;
+        position: absolute;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.75);
+        @include transition(background-color .4s, height .4s forwards);
+        
+        .tc-tour-title {
+            white-space: normal;
+            margin: 16px;
+            @include transition(margin .4s forwards);
+        }
+        
+        .tc-tour-type {
+            font-size: 16px;
+            @include transition(font-size .4s forwards);
+        }
+        .tc-tour-district {
+            font-size: 16px;
+            @include transition(font-size .4s forwards);
+        }
+        
+        .tc-tour-date {
+            font-size: 16px;
+            @include transition(font-size .4s forwards);
+        }
+    }
+}
+
+@media only screen and (max-device-width: 1024px)  {
+    .tc-container {    
+        height: 240px;
+        width: 180px;
+        .tc-content {
+            .tc-hero-img {
+                transform:scale(1.5)
+            }
+        }
+
+        .tc-footer {
+            bottom: 0;
+            height: 50%;
+            position: absolute;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.75);
+
+            .tc-tour-title {
+                white-space: normal;
+                margin: 16px;
+            }
+
+            .tc-tour-type {
+                font-size: 16px;
+            }
+            .tc-tour-district {
+                font-size: 16px;
+            }
+
+            .tc-tour-date {
+                font-size: 16px;
+            }
+        }
+    }
+}

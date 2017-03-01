@@ -1,0 +1,27 @@
+$navbar-height: 56px;
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+
+    .navbar {
+        height: $navbar-height;
+        width: 100%;
+    } 
+    
+    .hero-area {
+        height: 960px;
+        background-color: #fff;
+    }    
+    
+    .recent-tours-area {
+        height: 960px;
+        background-color: #fff;
+    }    
+    
+    .concept-area {
+        height: 960px;
+        background-color: #fff;
+    }    
+}
