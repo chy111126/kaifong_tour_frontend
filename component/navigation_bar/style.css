@@ -1,4 +1,4 @@
-/* line 37, C:/Users/TCC/kf_beta/component/navigation_bar/style.scss */
+/* line 37, D:/git/chy111126/kaifong_tour_frontend/component/navigation_bar/style.scss */
 .nb-container {
   width: 100%;
   position: fixed;
@@ -8,10 +8,10 @@
   border-bottom: 1px solid #bbb;
   -webkit-perspective: 1000;
   text-align: center; }
-  /* line 49, C:/Users/TCC/kf_beta/component/navigation_bar/style.scss */
+  /* line 49, D:/git/chy111126/kaifong_tour_frontend/component/navigation_bar/style.scss */
   .nb-container .nb-nav-center {
     display: inline-block; }
-    /* line 51, C:/Users/TCC/kf_beta/component/navigation_bar/style.scss */
+    /* line 51, D:/git/chy111126/kaifong_tour_frontend/component/navigation_bar/style.scss */
     .nb-container .nb-nav-center .nb-logo {
       /* Centered background/Hero Image */
       height: 172px;
@@ -21,7 +21,7 @@
       background-size: cover;
       background-image: url("./images/Kaifong_Tour_ozipfy.png"); }
 
-/* line 63, C:/Users/TCC/kf_beta/component/navigation_bar/style.scss */
+/* line 63, D:/git/chy111126/kaifong_tour_frontend/component/navigation_bar/style.scss */
 .nb-container-full {
   height: 172px;
   -webkit-transform: translateZ(0);
@@ -30,7 +30,7 @@
   -o-transition: height 0.4s;
   -webkit-transition: height 0.4s;
   transition: height 0.4s; }
-  /* line 70, C:/Users/TCC/kf_beta/component/navigation_bar/style.scss */
+  /* line 70, D:/git/chy111126/kaifong_tour_frontend/component/navigation_bar/style.scss */
   .nb-container-full .nb-nav-center .nb-logo {
     height: 172px;
     width: 172px;
@@ -39,7 +39,7 @@
     -webkit-transition: height 0.4s, width 0.4s, forwards;
     transition: height 0.4s, width 0.4s, forwards; }
 
-/* line 78, C:/Users/TCC/kf_beta/component/navigation_bar/style.scss */
+/* line 78, D:/git/chy111126/kaifong_tour_frontend/component/navigation_bar/style.scss */
 .nb-container-shrink {
   height: 96px;
   -webkit-transform: translateZ(0);
@@ -48,7 +48,7 @@
   -o-transition: height 0.4s;
   -webkit-transition: height 0.4s;
   transition: height 0.4s; }
-  /* line 85, C:/Users/TCC/kf_beta/component/navigation_bar/style.scss */
+  /* line 85, D:/git/chy111126/kaifong_tour_frontend/component/navigation_bar/style.scss */
   .nb-container-shrink .nb-nav-center .nb-logo {
     height: 96px;
     width: 96px;

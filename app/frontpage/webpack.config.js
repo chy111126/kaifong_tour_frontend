@@ -9,7 +9,7 @@ var path = require('path');
 var APP_DIR = path.resolve(__dirname);
 
 module.exports = {
-    entry: APP_DIR + '/index.jsx',
+    entry: path.resolve(APP_DIR, 'index.jsx'),
     output: {
         path: path.resolve(APP_DIR, '../../build/' + appName),
         filename: 'bundle.js'
