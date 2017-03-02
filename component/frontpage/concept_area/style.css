@@ -53,6 +53,27 @@
     min-height: 960px;
     height: auto;
     padding-top: 128px;
-    padding-bottom: 12px; }
+    padding-bottom: 12px;
+    padding-left: 48px;
+    padding-right: 48px; }
+    /* line 62, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/frontpage/concept_area/style.scss */
+    .cp-container .cp-content .cp-content-header-text {
+      font-size: 18px; }
+    /* line 66, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/frontpage/concept_area/style.scss */
+    .cp-container .cp-content .cp-sub-content {
+      padding: 36px; }
+      /* line 69, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/frontpage/concept_area/style.scss */
+      .cp-container .cp-content .cp-sub-content .cp-sub-content-img {
+        width: 100%; }
+      /* line 73, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/frontpage/concept_area/style.scss */
+      .cp-container .cp-content .cp-sub-content .cp-sub-content-header {
+        font-size: 24px; }
+      /* line 77, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/frontpage/concept_area/style.scss */
+      .cp-container .cp-content .cp-sub-content .cp-sub-content-text {
+        font-size: 16px; }
+  /* line 83, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/frontpage/concept_area/style.scss */
+  .cp-container .cp-video-wall {
+    display: block;
+    text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

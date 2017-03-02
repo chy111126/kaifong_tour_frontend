@@ -1,7 +1,7 @@
 $navbar-full-size: 172px;
 $navbar-shrink-size: 96px;
-$logo-full-size: $navbar-full-size;
-$logo-shrink-size: $navbar-shrink-size;
+$logo-full-size: $navbar-full-size - 4px;
+$logo-shrink-size: $navbar-shrink-size - 4px;
 
 @mixin transition($transition...) {
     -moz-transition:    $transition;
@@ -38,6 +38,7 @@ $logo-shrink-size: $navbar-shrink-size;
     width: 100%;
     
     position: fixed;
+    top: -1px;
     z-index: 100;
     background: #fff;
     box-shadow: 0 1px 3px rgba(0,0,0,0.4);
@@ -68,8 +69,8 @@ $logo-shrink-size: $navbar-shrink-size;
     
     .nb-nav-center {
         .nb-logo {
-            height: $navbar-full-size;
-            width: $navbar-full-size;
+            height: $logo-full-size;
+            width: $logo-full-size;
             @include transition(height .4s, width .4s, forwards);
         }
     }
@@ -83,8 +84,8 @@ $logo-shrink-size: $navbar-shrink-size;
     
     .nb-nav-center {
         .nb-logo {
-            height: $navbar-shrink-size;
-            width: $navbar-shrink-size;
+            height: $logo-shrink-size;
+            width: $logo-shrink-size;
             @include transition(height .4s, width .4s, forwards);
         }
     }

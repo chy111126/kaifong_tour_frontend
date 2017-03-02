@@ -1,27 +1,28 @@
-/* line 37, D:/git/chy111126/kaifong_tour_frontend/component/navigation_bar/style.scss */
+/* line 37, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/navigation_bar/style.scss */
 .nb-container {
   width: 100%;
   position: fixed;
+  top: -1px;
   z-index: 100;
   background: #fff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
   border-bottom: 1px solid #bbb;
   -webkit-perspective: 1000;
   text-align: center; }
-  /* line 49, D:/git/chy111126/kaifong_tour_frontend/component/navigation_bar/style.scss */
+  /* line 50, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/navigation_bar/style.scss */
   .nb-container .nb-nav-center {
     display: inline-block; }
-    /* line 51, D:/git/chy111126/kaifong_tour_frontend/component/navigation_bar/style.scss */
+    /* line 52, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/navigation_bar/style.scss */
     .nb-container .nb-nav-center .nb-logo {
       /* Centered background/Hero Image */
-      height: 172px;
-      width: 172px;
+      height: 168px;
+      width: 168px;
       background-repeat: no-repeat;
       background-position: 50% 50%;
       background-size: cover;
       background-image: url("./images/Kaifong_Tour_ozipfy.png"); }
 
-/* line 63, D:/git/chy111126/kaifong_tour_frontend/component/navigation_bar/style.scss */
+/* line 64, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/navigation_bar/style.scss */
 .nb-container-full {
   height: 172px;
   -webkit-transform: translateZ(0);
@@ -30,16 +31,16 @@
   -o-transition: height 0.4s;
   -webkit-transition: height 0.4s;
   transition: height 0.4s; }
-  /* line 70, D:/git/chy111126/kaifong_tour_frontend/component/navigation_bar/style.scss */
+  /* line 71, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/navigation_bar/style.scss */
   .nb-container-full .nb-nav-center .nb-logo {
-    height: 172px;
-    width: 172px;
+    height: 168px;
+    width: 168px;
     -moz-transition: height 0.4s, width 0.4s, forwards;
     -o-transition: height 0.4s, width 0.4s, forwards;
     -webkit-transition: height 0.4s, width 0.4s, forwards;
     transition: height 0.4s, width 0.4s, forwards; }
 
-/* line 78, D:/git/chy111126/kaifong_tour_frontend/component/navigation_bar/style.scss */
+/* line 79, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/navigation_bar/style.scss */
 .nb-container-shrink {
   height: 96px;
   -webkit-transform: translateZ(0);
@@ -48,10 +49,10 @@
   -o-transition: height 0.4s;
   -webkit-transition: height 0.4s;
   transition: height 0.4s; }
-  /* line 85, D:/git/chy111126/kaifong_tour_frontend/component/navigation_bar/style.scss */
+  /* line 86, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/navigation_bar/style.scss */
   .nb-container-shrink .nb-nav-center .nb-logo {
-    height: 96px;
-    width: 96px;
+    height: 92px;
+    width: 92px;
     -moz-transition: height 0.4s, width 0.4s, forwards;
     -o-transition: height 0.4s, width 0.4s, forwards;
     -webkit-transition: height 0.4s, width 0.4s, forwards;

@@ -50,24 +50,42 @@ class ConceptArea extends React.Component {
                             {this.state.text.header_text}
                         </div>
                         <div className={style['cp-sub-content']}>
-                            <div className={style['cp-sub-content-header']}>
-                                {this.state.text.sub_content_h1}
-                            </div>
-                            <div className={style['cp-sub-content-text']}>
-                                {this.state.text.sub_content_t1}
-                            </div>
-                        </div>   
+                            <Row>
+                                <Col sm={4}>
+                                    <img src={this.state.text.sub_content_img1} className={style['cp-sub-content-img']}></img>
+                                </Col>
+                                <Col sm={8}>
+                                    <div className={style['cp-sub-content-header']}>
+                                        {this.state.text.sub_content_h1}
+                                    </div>
+                                    <div className={style['cp-sub-content-text']}>
+                                        {this.state.text.sub_content_t1}
+                                    </div>
+                                </Col>
+                            </Row>
+                        </div>  
                         <div className={style['cp-sub-content']}>
-                            <div className={style['cp-sub-content-header']}>
-                                {this.state.text.sub_content_h2}
-                            </div>
-                            <div className={style['cp-sub-content-text']}>
-                                {this.state.text.sub_content_t2}
-                            </div>
-                        </div>                    
+                            <Row>
+                                <Col sm={4}>
+                                    <img src={this.state.text.sub_content_img2} className={style['cp-sub-content-img']}></img>
+                                </Col>
+                                <Col sm={8}>
+                                    <div className={style['cp-sub-content-header']}>
+                                        {this.state.text.sub_content_h2}
+                                    </div>
+                                    <div className={style['cp-sub-content-text']}>
+                                        {this.state.text.sub_content_t2}
+                                    </div>
+                                </Col>
+                            </Row>
+                        </div>             
                     </Col>
-                    <Col sm={12} md={6}>
-                        <iframe id="player" frameBorder="0" allowfullscreen="1" title="YouTube video player" width="640" height="360" src="https://www.youtube.com/embed/GFHUwc7e-Q0?wmode=transparent&amp;widget_referrer=http%3A%2F%2Fwww.kaifongtour.hk%2F&amp;enablejsapi=1&amp;origin=http%3A%2F%2Fcdn.embedly.com&amp;widgetid=1"></iframe>
+                    <Col sm={12} md={6} className={style['cp-video-wall']}>
+                        <iframe id="player" frameBorder="0" allowfullscreen="1" title="YouTube video player" width="640" height="360" src="https://www.youtube.com/embed/GFHUwc7e-Q0?wmode=transparent&amp;widget_referrer=http%3A%2F%2Fwww.kaifongtour.hk%2F&amp;enablejsapi=1&amp;widgetid=1"></iframe>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <iframe id="player" frameBorder="0" allowfullscreen="1" title="YouTube video player" width="640" height="360" src="https://www.youtube.com/embed/q8xCVBt4jOs?wmode=transparent&amp;widget_referrer=http%3A%2F%2Fwww.kaifongtour.hk%2F&amp;enablejsapi=1&amp;widgetid=1"></iframe>
                     </Col>
                 </Row>
             </Grid>
