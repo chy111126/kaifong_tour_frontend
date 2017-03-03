@@ -19,11 +19,12 @@ body {
     .recent-tours-area {
         min-height: 960px;
         height: auto;
-        background-color: #fff;
+        background-color: rgba(0, 0, 0, 0.025);
     }    
     
     .concept-area {
-        height: 960px;
-        background-color: #fff;
+        min-height: 960px;
+        height: auto;
+        background-color: rgba(0, 0, 0, 0.1);
     }    
 }

@@ -81,11 +81,11 @@ class ConceptArea extends React.Component {
                         </div>             
                     </Col>
                     <Col sm={12} md={6} className={style['cp-video-wall']}>
-                        <iframe id="player" frameBorder="0" allowfullscreen="1" title="YouTube video player" width="640" height="360" src="https://www.youtube.com/embed/GFHUwc7e-Q0?wmode=transparent&amp;widget_referrer=http%3A%2F%2Fwww.kaifongtour.hk%2F&amp;enablejsapi=1&amp;widgetid=1"></iframe>
+                        <iframe id="player" frameBorder="0" allowFullScreen="1" title="YouTube video player" width="100%" height="360" src="https://www.youtube.com/embed/GFHUwc7e-Q0?wmode=transparent&amp;widget_referrer=http%3A%2F%2Fwww.kaifongtour.hk%2F&amp;enablejsapi=1&amp;widgetid=1"></iframe>
                         <br/>
                         <br/>
                         <br/>
-                        <iframe id="player" frameBorder="0" allowfullscreen="1" title="YouTube video player" width="640" height="360" src="https://www.youtube.com/embed/q8xCVBt4jOs?wmode=transparent&amp;widget_referrer=http%3A%2F%2Fwww.kaifongtour.hk%2F&amp;enablejsapi=1&amp;widgetid=1"></iframe>
+                        <iframe id="player" frameBorder="0" allowFullScreen="1" title="YouTube video player" width="100%" height="360" src="https://www.youtube.com/embed/q8xCVBt4jOs?wmode=transparent&amp;widget_referrer=http%3A%2F%2Fwww.kaifongtour.hk%2F&amp;enablejsapi=1&amp;widgetid=1"></iframe>
                     </Col>
                 </Row>
             </Grid>

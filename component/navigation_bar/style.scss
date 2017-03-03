@@ -47,6 +47,21 @@ $logo-shrink-size: $navbar-shrink-size - 4px;
     
     text-align: center;
     
+    .nb-nav-btn {
+        display: inline-block;
+        height: 100%;
+        margin: 12px;
+        border-bottom: 12px solid #bbb;
+    }
+    
+    .nb-nav-left {
+        display: inline-block;
+    }
+    
+    .nb-nav-right {
+        display: inline-block;
+    }
+    
     .nb-nav-center {
         display: inline-block;
         .nb-logo {

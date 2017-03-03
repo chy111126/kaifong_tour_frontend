@@ -12,6 +12,12 @@ class NavigationBar extends React.Component {
     
     this.state = {is_shrinked : false};
     this.changeNavBarSize = this.changeNavBarSize.bind(this);
+      
+    this.state = {};
+    this.state.text = {};
+    this.state.text.recent_tours = "近期行程";
+    this.state.text.concept = "理念";
+      
   }
     
   changeNavBarSize() {
@@ -43,7 +49,12 @@ class NavigationBar extends React.Component {
     return (
       <div className={style['nb-container']} ref="nbContainer">
         <div className={style['nb-nav-left']}>
-            
+            <div className={style['nb-nav-btn']}>
+                {this.state.text.recent_tours}
+            </div>
+            <div className={style['nb-nav-btn']}>
+                {this.state.text.concept}
+            </div>
         </div>
         <div className={style['nb-nav-center']}>
             <div className={style['nb-logo']}>

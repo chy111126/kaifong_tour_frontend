@@ -1,25 +1,26 @@
-/* line 3, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/app/frontpage/style.scss */
+/* line 3, D:/git/chy111126/kaifong_tour_frontend/app/frontpage/style.scss */
 body {
   margin: 0px;
   padding: 0px;
   width: 100%; }
-  /* line 8, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/app/frontpage/style.scss */
+  /* line 8, D:/git/chy111126/kaifong_tour_frontend/app/frontpage/style.scss */
   body .navbar {
     height: 56px;
     width: 100%; }
-  /* line 13, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/app/frontpage/style.scss */
+  /* line 13, D:/git/chy111126/kaifong_tour_frontend/app/frontpage/style.scss */
   body .hero-area {
     min-height: 960px;
     height: 960px;
     background-color: #fff; }
-  /* line 19, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/app/frontpage/style.scss */
+  /* line 19, D:/git/chy111126/kaifong_tour_frontend/app/frontpage/style.scss */
   body .recent-tours-area {
     min-height: 960px;
     height: auto;
-    background-color: #fff; }
-  /* line 25, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/app/frontpage/style.scss */
+    background-color: rgba(0, 0, 0, 0.025); }
+  /* line 25, D:/git/chy111126/kaifong_tour_frontend/app/frontpage/style.scss */
   body .concept-area {
-    height: 960px;
-    background-color: #fff; }
+    min-height: 960px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.1); }
 
 /*# sourceMappingURL=style.css.map */

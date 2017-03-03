@@ -1,7 +1,6 @@
 @charset "UTF-8";
-/* line 1, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/frontpage/recent_tours_area/style.scss */
+/* line 1, D:/git/chy111126/kaifong_tour_frontend/component/frontpage/recent_tours_area/style.scss */
 .rt-container {
-  min-height: 100%;
   height: auto;
   width: 100%;
   /* Centered background/Hero Image */
@@ -14,7 +13,7 @@
   position: relative;
   color: #333;
   font-family: sans-serif,'PingFang SC',"Microsoft YaHei","微软雅黑",STXihei,"华文细黑",sans-serif; }
-  /* line 18, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/frontpage/recent_tours_area/style.scss */
+  /* line 17, D:/git/chy111126/kaifong_tour_frontend/component/frontpage/recent_tours_area/style.scss */
   .rt-container .rt-banner {
     height: 96px;
     position: absolute;
@@ -28,7 +27,7 @@
     max-height: 100%;
     overflow: auto;
     text-align: center; }
-    /* line 33, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/frontpage/recent_tours_area/style.scss */
+    /* line 32, D:/git/chy111126/kaifong_tour_frontend/component/frontpage/recent_tours_area/style.scss */
     .rt-container .rt-banner .rt-banner-title {
       position: absolute;
       /*it can be fixed too*/
@@ -39,7 +38,7 @@
       font-size: 48px;
       font-weight: 100;
       text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8); }
-      /* line 41, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/frontpage/recent_tours_area/style.scss */
+      /* line 40, D:/git/chy111126/kaifong_tour_frontend/component/frontpage/recent_tours_area/style.scss */
       .rt-container .rt-banner .rt-banner-title .rt-banner-title-line {
         height: 3px;
         width: 10%;
@@ -48,11 +47,9 @@
         vertical-align: middle;
         background-color: #333;
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.6); }
-  /* line 53, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/frontpage/recent_tours_area/style.scss */
+  /* line 52, D:/git/chy111126/kaifong_tour_frontend/component/frontpage/recent_tours_area/style.scss */
   .rt-container .rt-content {
-    background-color: rgba(0, 0, 0, 0.1);
     width: 100%;
-    min-height: 960px;
     height: auto;
     padding-top: 128px;
     padding-bottom: 12px;
@@ -62,7 +59,7 @@
     text-align: center; }
 
 @media only screen and (max-device-width: 1024px) {
-  /* line 74, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/frontpage/recent_tours_area/style.scss */
+  /* line 71, D:/git/chy111126/kaifong_tour_frontend/component/frontpage/recent_tours_area/style.scss */
   .rt-container {
     height: auto;
     width: 100%; } }
