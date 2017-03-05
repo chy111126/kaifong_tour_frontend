@@ -10,12 +10,14 @@ import NavigationBar from 'component_path/navigation_bar/navigation_bar.jsx';
 import HeroArea from 'component_path/frontpage/hero_area/hero_area.jsx';
 import RecentToursArea from 'component_path/frontpage/recent_tours_area/recent_tours_area.jsx';
 import ConceptArea from 'component_path/frontpage/concept_area/concept_area.jsx';
+import KaifongArea from 'component_path/frontpage/kaifong_area/kaifong_area.jsx';
 
 // ReactJS Dom Rendering
 var nav_bar = render(<NavigationBar />, document.getElementById('navbar'));
 var hero_area = render(<HeroArea />, document.getElementById('heroArea'));
 var recent_tours_area = render(<RecentToursArea />, document.getElementById('recentToursArea'));
 var concept_area = render(<ConceptArea />, document.getElementById('conceptArea'));
+var kaifong_area = render(<KaifongArea />, document.getElementById('kaifongArea'));
 
 
 

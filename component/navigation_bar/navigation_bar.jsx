@@ -48,21 +48,10 @@ class NavigationBar extends React.Component {
   render() {
     return (
       <div className={style['nb-container']} ref="nbContainer">
-        <div className={style['nb-nav-left']}>
-            <div className={style['nb-nav-btn']}>
-                {this.state.text.recent_tours}
-            </div>
-            <div className={style['nb-nav-btn']}>
-                {this.state.text.concept}
-            </div>
-        </div>
         <div className={style['nb-nav-center']}>
             <div className={style['nb-logo']}>
 
             </div>            
-        </div>
-        <div className={style['nb-nav-right']}>
-            
         </div>
       </div>
     );

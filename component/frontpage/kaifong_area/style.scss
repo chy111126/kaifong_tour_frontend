@@ -1,18 +1,13 @@
-.cp-container {
+.kf-container {
     height: auto;
     width: 100%;
     
-    /* Centered background/Hero Image */
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-    background-image:   url('./images/bg_1.png');    
     position: relative;
     
     color: #333;
     font-family: sans-serif,'PingFang SC',"Microsoft YaHei","微软雅黑",STXihei,"华文细黑",sans-serif;
     
-    .cp-banner {
+    .kf-banner {
         height: 96px;
         text-shadow: 0 1px 1px rgba(1,1,1,0.6);
 
@@ -28,7 +23,7 @@
         
         text-align: center;
         
-        .cp-banner-title {
+        .kf-banner-title {
             position:absolute; /*it can be fixed too*/
             left:0; right:0;
             bottom:20%;
@@ -36,7 +31,7 @@
             font-size: 48px;
             font-weight: 100;
             text-shadow: 0 1px 1px rgba(0,0,0,0.8);
-            .cp-banner-title-line {
+            .kf-banner-title-line {
                 height: 3px;
                 width: 10%;
                 margin: 8px;
@@ -48,7 +43,7 @@
         }
     }
     
-    .cp-content {
+    .kf-content {
         width: 100%;
         min-height: 960px;
         height: auto;
@@ -57,45 +52,6 @@
         padding-bottom: 12px;
         padding-left: 48px;
         padding-right: 48px;
-        
-        .cp-content-header-text {
-            font-size: 18px;
-        }
-        
-        .cp-sub-content {
-            padding: 36px;
-            
-            .cp-sub-content-img {
-            padding-top: 12px;
-            padding-bottom: 12px;
-                width: 100%;
-            }
-            
-            .cp-sub-content-header {
-                font-size: 24px;
-            }
-            
-            .cp-sub-content-text {
-                font-size: 16px;
-            }
-        }
-    }
-    
-    .cp-video-wall {
-        display: block;
-        text-align: center;
-        
-        iframe {
-            width: 90vw; 
-            height: 50.618vw; /* 100/56.25 = 560/315 = 1.778 */
-        }
-
-        @media (min-width: 990px) {
-            iframe {
-                width: 40vw; 
-                height: 22.492vw; /* 100/56.25 = 560/315 = 1.778 */
-            }
-        }
         
     }
 }
