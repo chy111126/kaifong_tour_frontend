@@ -14,17 +14,27 @@ class Kaifong extends React.Component {
 
   render() {
     return (
-        <div>
-        <img src={this.props.image} />
-            <br />
-        {this.props.name}
-            <br />
-        {this.props.title}
-            <br />
-        {this.props.tagline}
-            <br />
-        {this.props.description}
-            <br />
+        <div className={style['kf-sub-container']}>
+            <Grid>
+                <Row>
+                    <Col sm={12} md={6}>
+                        <img src={this.props.image} />
+                    </Col>
+                    <Col sm={12} md={6}>
+                        <div className={style['kf-name']}>
+                            {this.props.name}
+                        </div>
+                        <div className={style['kf-title']}>
+                            {this.props.title}
+                        </div>
+                        <div className={style['kf-tagline']}>
+                            {this.props.tagline}
+                        </div>
+                        {this.props.description}
+                            <br />
+                    </Col>
+                </Row>
+            </Grid>
         </div>
     )
   }

@@ -22,25 +22,6 @@
         overflow:auto;
         
         text-align: center;
-        
-        .kf-banner-title {
-            position:absolute; /*it can be fixed too*/
-            left:0; right:0;
-            bottom:20%;
-            margin:auto;
-            font-size: 48px;
-            font-weight: 100;
-            text-shadow: 0 1px 1px rgba(0,0,0,0.8);
-            .kf-banner-title-line {
-                height: 3px;
-                width: 10%;
-                margin: 8px;
-                display: inline-block;
-                vertical-align: middle;
-                background-color: #333;
-                box-shadow: 0 1px 1px rgba(0,0,0,0.6);
-            }
-        }
     }
     
     .kf-content {
@@ -53,5 +34,29 @@
         padding-left: 48px;
         padding-right: 48px;
         
+    }
+}
+
+.kf-sub-container {
+    
+    img {
+        float: right;
+        padding-right: 28px;
+    }
+    
+    .kf-name {
+        font-size: 28px;
+        margin-top: 14px;
+        margin-bottom: 8px;
+    }
+    
+    .kf-title {
+        font-size: 16px;
+    }
+    
+    .kf-tagline {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        font-style: italic;
     }
 }

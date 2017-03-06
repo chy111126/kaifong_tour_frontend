@@ -5,6 +5,8 @@ import { Grid, Row, Col, Clearfix } from 'react-bootstrap';
 // require('./style.css')
 import style from './style.css';
 
+import Title from '../title/title.jsx';
+
 class ConceptArea extends React.Component {
 
   constructor(props) {
@@ -12,8 +14,7 @@ class ConceptArea extends React.Component {
       
     this.state = {};
     this.state.text = {};
-      
-    this.state.text.subtitle = "您的在地嚮導";
+
     this.state.text.title = "理念";
     this.state.text.header_text = "「街坊帶路」致力透過深度步行團推廣社區旅遊，給全世界一個真香港在地體驗，同時為社會迎來正面效益，為共同構建更美好社區而出一分力。";
     
@@ -34,15 +35,9 @@ class ConceptArea extends React.Component {
   render() {
     return (
       <div className={style['cp-container']}>
-            <div className={style['cp-banner']}>
-                <div className={style['cp-banner-title']}>
-                    <div className={style['cp-banner-title-line']}>
-                    </div>
-                    {this.state.text.title}
-                    <div className={style['cp-banner-title-line']}>
-                    </div>
-                </div>
-            </div>
+            <Title
+                name={this.state.text.title}
+            />    
             <Grid className={style['cp-content']}>
                 <Row className="show-grid">
                     <Col sm={12} md={6}>

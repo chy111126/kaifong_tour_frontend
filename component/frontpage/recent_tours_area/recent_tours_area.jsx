@@ -4,7 +4,8 @@ import React from 'react';
 // require('./style.css')
 import style from './style.css';
 
-import TourCard from 'component_path/tour_card/tour_card.jsx'
+import Title from '../title/title.jsx';
+import TourCard from 'component_path/tour_card/tour_card.jsx';
 
 class RecentToursArea extends React.Component {
 
@@ -69,15 +70,9 @@ class RecentToursArea extends React.Component {
     
     return (
       <div className={style['rt-container']}>
-            <div className={style['rt-banner']}>
-                <div className={style['rt-banner-title']}>
-                    <div className={style['rt-banner-title-line']}>
-                    </div>
-                    {this.state.text.title}
-                    <div className={style['rt-banner-title-line']}>
-                    </div>
-                </div>
-            </div>
+            <Title
+                name={this.state.text.title}
+            />    
             <div className={style['rt-content']}>
                 { tours }
             </div>

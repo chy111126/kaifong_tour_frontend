@@ -1,12 +1,12 @@
 @charset "UTF-8";
-/* line 1, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/frontpage/kaifong_area/style.scss */
+/* line 1, D:/git/chy111126/kaifong_tour_frontend/component/frontpage/kaifong_area/style.scss */
 .kf-container {
   height: auto;
   width: 100%;
   position: relative;
   color: #333;
   font-family: sans-serif,'PingFang SC',"Microsoft YaHei","微软雅黑",STXihei,"华文细黑",sans-serif; }
-  /* line 10, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/frontpage/kaifong_area/style.scss */
+  /* line 10, D:/git/chy111126/kaifong_tour_frontend/component/frontpage/kaifong_area/style.scss */
   .kf-container .kf-banner {
     height: 96px;
     text-shadow: 0 1px 1px rgba(1, 1, 1, 0.6);
@@ -21,27 +21,7 @@
     max-height: 100%;
     overflow: auto;
     text-align: center; }
-    /* line 26, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/frontpage/kaifong_area/style.scss */
-    .kf-container .kf-banner .kf-banner-title {
-      position: absolute;
-      /*it can be fixed too*/
-      left: 0;
-      right: 0;
-      bottom: 20%;
-      margin: auto;
-      font-size: 48px;
-      font-weight: 100;
-      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8); }
-      /* line 34, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/frontpage/kaifong_area/style.scss */
-      .kf-container .kf-banner .kf-banner-title .kf-banner-title-line {
-        height: 3px;
-        width: 10%;
-        margin: 8px;
-        display: inline-block;
-        vertical-align: middle;
-        background-color: #333;
-        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.6); }
-  /* line 46, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/frontpage/kaifong_area/style.scss */
+  /* line 27, D:/git/chy111126/kaifong_tour_frontend/component/frontpage/kaifong_area/style.scss */
   .kf-container .kf-content {
     width: 100%;
     min-height: 960px;
@@ -50,5 +30,26 @@
     padding-bottom: 12px;
     padding-left: 48px;
     padding-right: 48px; }
+
+/* line 42, D:/git/chy111126/kaifong_tour_frontend/component/frontpage/kaifong_area/style.scss */
+.kf-sub-container img {
+  float: right;
+  padding-right: 28px; }
+
+/* line 47, D:/git/chy111126/kaifong_tour_frontend/component/frontpage/kaifong_area/style.scss */
+.kf-sub-container .kf-name {
+  font-size: 28px;
+  margin-top: 14px;
+  margin-bottom: 8px; }
+
+/* line 53, D:/git/chy111126/kaifong_tour_frontend/component/frontpage/kaifong_area/style.scss */
+.kf-sub-container .kf-title {
+  font-size: 16px; }
+
+/* line 57, D:/git/chy111126/kaifong_tour_frontend/component/frontpage/kaifong_area/style.scss */
+.kf-sub-container .kf-tagline {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-style: italic; }
 
 /*# sourceMappingURL=style.css.map */

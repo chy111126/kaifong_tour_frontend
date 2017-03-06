@@ -1,4 +1,4 @@
-/* line 37, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/navigation_bar/style.scss */
+/* line 37, D:/git/chy111126/kaifong_tour_frontend/component/navigation_bar/style.scss */
 .nb-container {
   width: 100%;
   position: fixed;
@@ -9,12 +9,12 @@
   border-bottom: 1px solid #bbb;
   -webkit-perspective: 1000;
   text-align: center; }
-  /* line 49, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/navigation_bar/style.scss */
+  /* line 49, D:/git/chy111126/kaifong_tour_frontend/component/navigation_bar/style.scss */
   .nb-container .nb-nav-center {
     display: inline-block;
     height: 100%;
     width: 100%; }
-    /* line 54, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/navigation_bar/style.scss */
+    /* line 54, D:/git/chy111126/kaifong_tour_frontend/component/navigation_bar/style.scss */
     .nb-container .nb-nav-center .nb-logo {
       /* Centered background/Hero Image */
       display: inline-block;
@@ -25,7 +25,7 @@
       background-size: cover;
       background-image: url("./images/Kaifong_Tour_ozipfy.png"); }
 
-/* line 67, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/navigation_bar/style.scss */
+/* line 67, D:/git/chy111126/kaifong_tour_frontend/component/navigation_bar/style.scss */
 .nb-container-full {
   height: 172px;
   text-align: center;
@@ -35,7 +35,7 @@
   -o-transition: height 0.4s;
   -webkit-transition: height 0.4s;
   transition: height 0.4s; }
-  /* line 77, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/navigation_bar/style.scss */
+  /* line 77, D:/git/chy111126/kaifong_tour_frontend/component/navigation_bar/style.scss */
   .nb-container-full .nb-nav-center .nb-logo {
     height: 168px;
     width: 168px;
@@ -44,7 +44,7 @@
     -webkit-transition: height 0.4s, width 0.4s, forwards;
     transition: height 0.4s, width 0.4s, forwards; }
 
-/* line 85, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/navigation_bar/style.scss */
+/* line 85, D:/git/chy111126/kaifong_tour_frontend/component/navigation_bar/style.scss */
 .nb-container-shrink {
   height: 96px;
   text-align: left;
@@ -54,7 +54,7 @@
   -o-transition: height 0.4s;
   -webkit-transition: height 0.4s;
   transition: height 0.4s; }
-  /* line 94, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/navigation_bar/style.scss */
+  /* line 94, D:/git/chy111126/kaifong_tour_frontend/component/navigation_bar/style.scss */
   .nb-container-shrink .nb-nav-center .nb-logo {
     height: 92px;
     width: 92px;

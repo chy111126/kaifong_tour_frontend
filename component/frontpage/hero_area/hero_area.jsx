@@ -4,6 +4,8 @@ import React from 'react';
 // require('./style.css')
 import style from './style.css';
 
+import Title from '../title/title.jsx';
+
 class HeroArea extends React.Component {
 
   constructor(props) {

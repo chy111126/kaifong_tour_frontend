@@ -5,6 +5,7 @@ import { Grid, Row, Col, Clearfix } from 'react-bootstrap';
 // require('./style.css')
 import style from './style.css';
 
+import Title from '../title/title.jsx';
 import Kaifong from './kaifong.jsx';
 
 class KaifongArea extends React.Component {
@@ -27,15 +28,9 @@ class KaifongArea extends React.Component {
   render() {
     return (
       <div className={style['kf-container']}>
-            <div className={style['kf-banner']}>
-                <div className={style['kf-banner-title']}>
-                    <div className={style['kf-banner-title-line']}>
-                    </div>
-                    {this.state.text.title}
-                    <div className={style['kf-banner-title-line']}>
-                    </div>
-                </div>
-            </div>
+            <Title
+                name={this.state.text.title}
+            />
             <div className={style['kf-content']}>
                 <Kaifong
                     image={this.state.images.tung}
