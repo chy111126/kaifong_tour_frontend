@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* line 1, D:/git/chy111126/kaifong_tour_frontend/component/frontpage/hero_area/style.scss */
+/* line 1, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/frontpage/hero_area/style.scss */
 .ha-container {
   height: 100%;
   width: 100%;
@@ -12,7 +12,7 @@
   color: aliceblue;
   font-family: sans-serif,'PingFang SC',"Microsoft YaHei","微软雅黑",STXihei,"华文细黑",sans-serif;
   text-shadow: 0 1px 5px rgba(0, 0, 0, 0.6); }
-  /* line 19, D:/git/chy111126/kaifong_tour_frontend/component/frontpage/hero_area/style.scss */
+  /* line 19, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/frontpage/hero_area/style.scss */
   .ha-container .ha-banner {
     height: 156px;
     width: 700px;
@@ -27,7 +27,7 @@
     max-height: 100%;
     overflow: auto;
     text-align: center; }
-    /* line 35, D:/git/chy111126/kaifong_tour_frontend/component/frontpage/hero_area/style.scss */
+    /* line 35, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/frontpage/hero_area/style.scss */
     .ha-container .ha-banner .ha-banner-subtitle {
       position: absolute;
       /*it can be fixed too*/
@@ -35,7 +35,7 @@
       right: 0;
       top: 20%;
       margin: auto; }
-    /* line 41, D:/git/chy111126/kaifong_tour_frontend/component/frontpage/hero_area/style.scss */
+    /* line 41, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/frontpage/hero_area/style.scss */
     .ha-container .ha-banner .ha-banner-title {
       position: absolute;
       /*it can be fixed too*/
@@ -46,26 +46,26 @@
       font-size: 48px;
       font-weight: 100;
       text-shadow: 0 1px 10px rgba(0, 0, 0, 0.8); }
-  /* line 52, D:/git/chy111126/kaifong_tour_frontend/component/frontpage/hero_area/style.scss */
+  /* line 52, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/frontpage/hero_area/style.scss */
   .ha-container .ha-search-box {
     background-color: rgba(0, 0, 0, 0.7);
     width: 700px;
-    height: 300px;
+    height: 360px;
     position: absolute;
     /*it can be fixed too*/
     left: 0;
     right: 0;
-    bottom: 20%;
+    bottom: 23%;
     margin: auto;
     /*this to solve "the content will not be cut when the window is smaller than the content": */
     max-width: 100%;
     max-height: 100%;
     overflow: auto;
     text-align: center; }
-    /* line 69, D:/git/chy111126/kaifong_tour_frontend/component/frontpage/hero_area/style.scss */
+    /* line 69, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/frontpage/hero_area/style.scss */
     .ha-container .ha-search-box .ha-search-box-sep {
       vertical-align: middle; }
-      /* line 71, D:/git/chy111126/kaifong_tour_frontend/component/frontpage/hero_area/style.scss */
+      /* line 72, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/frontpage/hero_area/style.scss */
       .ha-container .ha-search-box .ha-search-box-sep .ha-search-box-sep-line {
         height: 3px;
         width: 30%;
@@ -73,5 +73,16 @@
         display: inline-block;
         vertical-align: middle;
         background-color: aliceblue; }
+
+/* line 85, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/frontpage/hero_area/style.scss */
+.tour-type-container {
+  display: inline-block;
+  min-height: 120px;
+  min-width: 96px;
+  margin: 12px; }
+  /* line 91, C:/Users/TCC/git_chy111126/kaifong_tour_frontend/component/frontpage/hero_area/style.scss */
+  .tour-type-container img {
+    padding: 8px;
+    width: 96px; }
 
 /*# sourceMappingURL=style.css.map */
